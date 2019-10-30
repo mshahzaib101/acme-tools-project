@@ -1,0 +1,200 @@
+.nav-container{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 15px;
+    padding: 10px 10px 14px 10px;
+    min-width: 310px;
+}
+.nav-btns{
+    display: flex;
+    justify-content: space-around;
+}
+.App-logo-con{
+    width: 15%;
+    display: flex;
+    align-items: center;
+}
+.App-logo {
+    width: 100%;
+
+}
+.link-tag{
+    text-decoration: none;
+    margin: 0px;
+    padding: 0px;
+}
+.btn-h4-tag{
+    margin: 0px;
+}
+.dialog-logo-con{
+    width: 20%;
+    margin: 0px auto;
+}
+.msgdialog-logo-con{
+    margin: 0px 0px;
+    display: inline-block;
+}
+.msg-dialog-btn{
+    float: right;
+    margin-top: -10px;
+}
+.sign-up-head{
+    text-align: center;
+    margin: 0px;
+    padding: 0px;
+}
+.dialog-con{
+    background-color: #ff9801;
+    border-radius: 0px;
+    border: 1px solid #636363;;
+}
+.signup-form-con{
+    text-align: right;
+    padding: 0px 10px;
+    margin-top: 5px;
+}
+.login-form-con{
+    text-align: right;
+    padding: 0px 10px;
+    margin-top: -5px;
+}
+.input-con-signup{
+    margin: 0px 15% 16px auto;
+    width: 80%;
+    text-align: right;
+}
+.label-input-signup{
+   margin: 0px 10px 0px 0px;
+   position: relative;
+   top: 6px;
+}
+.signup-dialog-submit{
+    text-align: center;
+    margin: 22px 0px;
+}
+.login-dialog-submit{
+    text-align: right;
+    margin: 22px 10% 22px 0px;
+}
+.forget-pass{
+    display: inline;
+    margin-right: 25%;
+    cursor: pointer;
+}
+.msg-dialog-content{
+    text-align: center;
+    margin: -6px auto 30px auto;
+    padding: 0px 10px;
+}
+.msg-dialog-p{
+    margin: 8px 0px 0px 0px;
+}
+.logoutBtn{
+    text-align: center;
+    cursor: pointer;
+    border-top: 0.5px solid #848484;
+    padding-top: 14px;
+    margin-bottom: 10px;
+}
+.drop-s1{
+    float: right;
+}
+.drop-con{
+    background-color: #ffc063;
+    border: 2px solid black;
+    border-radius: 0px;
+}
+.drop1-con{
+    padding: 15px 20px 0px 20px;
+}
+.drop-p2{
+    margin: 10px 0px 0px 0px;
+}
+
+@media screen and (max-width: 950px) {
+    .nav-container{
+        display: block;
+     
+    }
+    .App-logo-con{
+        width: 30%;
+        margin: 0px auto;
+    }
+    .nav-btns{
+        margin-top: 5px;
+    }
+  }
+
+
+/* //for mobile devices */
+@media screen and (max-width: 750px) {
+    .nav-container{
+        display: block;
+     
+    }
+    .App-logo-con{
+        width: 50%;
+        margin: 0px auto;
+    }
+    .nav-btns{
+        margin-top: 5px;
+    }
+    .input-con-signup{
+        margin: 0px 10% 15px auto;
+        width: 90%;
+    }
+    .forget-pass{
+        margin-right: 15%;
+    }
+  }
+  @media screen and (max-width: 550px) {
+    .input-con-signup{
+        margin: 0px 0px 10px 0px;
+        width: 100%;
+    }
+    .label-input-signup{
+        top: 4px;
+     }
+    .signup-form-con{
+        margin-right: 20px;
+        margin-top: 0px;
+    }
+    .login-form-con{
+        margin-right: 10%;
+    }
+    .dialog-logo-con{
+        width: 25%;
+    }
+    .forget-pass{
+        margin-right: 5%;
+    }
+    .msg-dialog-content{
+        padding: 0px 50px;
+    }
+  }
+  @media screen and (max-width: 400px) {
+    .signup-form-con{
+        margin-right: 10px;
+    }
+    .login-form-con{
+        margin-right: 6%;
+    }
+    
+  }
+  @media screen and (max-width: 340px) {
+    .forget-pass{
+        margin-right: 1%;
+        margin-bottom: 5px;
+    }
+  }
+  @media screen and (max-width: 320px) {
+    .signup-form-con{
+        margin-right: 0px;
+    }
+   
+    .label-input-signup{
+        margin: 0px 5px 0px 0px;
+     }
+  }

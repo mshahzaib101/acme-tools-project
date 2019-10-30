@@ -1,0 +1,27 @@
+.home-con{
+    padding: 20px 10% 30px 10%;
+    text-align: center;
+    min-width: 310px;
+}
+.home-p{
+    margin: 10px 0px 0px 0px;
+}
+.home-h2{
+    margin: 40px 0px 0px 0px;
+    font-size: 24pt;
+}
+.home-font{
+    font-family: Anton;
+    font-size: 14pt;
+}
+.home-font2{
+    font-size: 12pt;
+}
+
+/* //for mobile devices */
+@media screen and (max-width: 750px) {
+    .home-con{
+        padding: 20px 10px 30px 10px;
+        text-align: center;
+    }
+}

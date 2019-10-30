@@ -1,0 +1,19 @@
+.App {
+  width: 60%;
+  margin: 0px auto;
+  font-family: sans-serif;
+}
+
+/* //for mobile devices */
+@media screen and (max-width: 750px) {
+  .App {
+    width: 70%;
+  }
+}
+
+/* //for mobile devices */
+@media screen and (max-width: 500px) {
+  .App {
+    width: 100%;
+  }
+}

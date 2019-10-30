@@ -1,0 +1,77 @@
+@font-face {
+    font-family: 'OpenSansRegular';
+    src: local('OpenSansRegular'), url(../../fonts/OpenSans-Regular.ttf);
+  }
+
+.grouper-con{
+    padding: 0px 10% 30px 10%;
+    text-align: center;
+    min-width: 310px;
+} 
+.grouper-title{
+    font-size: 60pt;
+}
+.grouper-con-d2{
+    text-align: left;
+}
+.grouper-list{
+    font-family: OpenSansRegular;
+}
+.grouper-li{
+    margin-top: 10px;
+}
+.uplaodBtn-con{
+    background-color: #ff9801;
+    width: 100%;
+    margin: 0px auto 40px auto;
+    border-radius: 0px;
+    border: 2px dashed black;
+    height: 170px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.uplaodBtn-con:hover{
+    border: 2px solid black;
+}
+.grouper-settings{
+    color: #ff9801;
+    cursor: pointer;
+}
+.filename{
+    display: block;
+}
+.upload-text-con{
+    margin: -10px 0px 0px 0px;
+}
+.table-con{
+    width: 100%;
+    text-align: left;
+    margin: 20px 0px;
+    
+}
+.table-r1{
+    background-color: #848484;
+}
+.table-r2{
+    background-color: #a5a5a5;
+}
+.data-table{
+    width: 50%;
+    padding-left: 10px
+}
+.download-table{
+    background-color: #ff9801;
+    
+}
+.table-center{
+    text-align: center;
+    padding: 2px;
+}
+/* //for mobile devices */
+@media screen and (max-width: 750px) {
+    .grouper-con{
+        padding: 20px 10px 30px 10px;
+    }
+}
